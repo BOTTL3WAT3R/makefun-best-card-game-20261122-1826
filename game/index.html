@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emberfall Duel - a card duel against the Warden</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #081f26; min-height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'Trebuchet MS', 'Segoe UI', sans-serif; }
+  main { padding: 18px; text-align: center; }
+  canvas { width: min(96vw, 1280px); height: auto; border-radius: 14px; box-shadow: 0 18px 60px rgba(0, 0, 0, 0.55); cursor: pointer; }
+  p { color: #8fb0ba; font-size: 14px; margin: 12px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p>Emberfall Duel - click to play. Bring the Warden to 0 life before the Warden brings you to 0.</p>
+</main>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
